@@ -2,6 +2,7 @@ StablexUI Checkstyle Tool
 ======================
 
 Uses [checkstyle](http://lib.haxe.org/p/checkstyle/) haxe lib.
+Current set of rules should be considered as a draft.
 
 
 Installation

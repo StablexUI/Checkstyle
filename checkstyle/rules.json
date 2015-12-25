@@ -275,12 +275,6 @@
                     "INTERFACE"
                 ]
             }
-        },
-        {
-            "type"  : "VariableInitialisation",
-            "props" : {
-                "severity" : "ERROR"
-            }
         }
     ]
 }
