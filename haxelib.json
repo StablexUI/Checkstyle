@@ -1,0 +1,14 @@
+{
+    "name"         : "stablexui-checkstyle",
+    "url"          : "https://github.com/StablexUI/Checkstyle",
+    "license"      : "MIT",
+    "tags"         : ["stablexui", "checkstyle"],
+    "description"  : "StablexUI checkstyle rules.",
+    "version"      : "2.0.0-alpha",
+    "releasenote"  : "Initial release. ",
+    "classPath"    : "src",
+    "contributors" : ["RealyUniqueName"],
+    "dependencies" : {
+        "checkstyle" : ""
+    }
+}
