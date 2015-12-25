@@ -49,16 +49,12 @@
             "props" : {
                 "thresholds" : [
                     {
-                        "severity"   : "INFO",
-                        "complexity" : 6
-                    },
-                    {
                         "severity"   : "WARNING",
-                        "complexity" : 11
+                        "complexity" : 10
                     },
                     {
                         "severity"   : "ERROR",
-                        "complexity" : 21
+                        "complexity" : 20
                     }
                 ]
             }
@@ -181,7 +177,7 @@
             "props" : {
                 "severity"                 : "WARNING",
                 "allowSingleLineStatement" : true,
-                "tokens"                   : ["IF", "ELSE_IF", "FOR", "WHILE", "TRY", "CATCH"]
+                "tokens"                   : ["IF", "FOR", "WHILE", "TRY", "CATCH"]
             }
         },
         {
