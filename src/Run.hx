@@ -25,10 +25,7 @@ class Run
     /**
      * Constructor
      */
-    public function new () : Void
-    {
-
-    }
+    public function new () : Void {}
 
 
     /**
@@ -53,6 +50,8 @@ class Run
                 exitCode = Std.parseInt(statusRegExp.matched(1));
             }
         }
+
+        handleReport();
 
         Sys.exit(exitCode);
     }
@@ -99,5 +98,16 @@ class Run
         return checkPath;
     }
 
+
+    /**
+     * Remove generated reports if neccessary
+     */
+    private function handleReport () : Void
+    {
+        var args = Sys.args();
+        if (args.indexOf('-r') < 0) {
+            sys.FileSystem.deleteFile('check-style-report.xml');
+        }
+    }
 
 }//class Run
